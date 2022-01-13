@@ -3,9 +3,18 @@
 <html lang="en">
         <head>
             <meta charset="utf-8">
+            <title>Chaining Selectors</title>
             <style>
+                .avatar.proportioned{
+                    width: 300px;
+                    height:auto;
+                }      
+                .avatar.distorted{
+                    width: 200px;
+                    height: 400px;
 
-
+                }
+                
             </style>
 
 
@@ -13,12 +22,14 @@
 
 
         <body>
-            <img class="avatar proportioned" src="images/pexels-katho-mutodo-8434791.jpg" alt="katho picture">
-            <img class="avatar proportioned" src="images/pexels-andrea-piacquadio-3777931.jpg" alt="andrea picture">
-            <p></p>
-            <img class="avatar distorted" src="images/pexels-katho-mutodo-8434791.jpg" alt="katho picture">
-            <img class="avatar distorted" src="images/pexels-andrea-piacquadio-3777931.jpg" alt="andrea picture">
-        
+            <div>
+                <img class="avatar proportioned" src="images/pexels-katho-mutodo-8434791.jpg" alt="">
+                <img class="avatar distorted" src="images/pexels-andrea-piacquadio-3777931.jpg" alt="">
+              </div>
+              <div>
+                <img class="original proportioned" src="images/pexels-katho-mutodo-8434791.jpg" alt="">
+                <img class="original distorted" src="images/pexels-andrea-piacquadio-3777931.jpg" alt="">
+              </div>
         </body>
 
 
