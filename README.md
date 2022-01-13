@@ -1,1 +1,1 @@
-# CSS-foundations
+Foundations of CSS in The Odin Project
