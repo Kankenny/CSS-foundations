@@ -2,6 +2,10 @@
 .header  {
     font-family: monospace;
     background: papayawhip;
+    display:flex;
+    justify-content: space-around;
+    padding:8px;
+    align-items: center;
   }
   
   .logo {
@@ -11,10 +15,16 @@
     background: white;
     padding: 4px 32px;
   }
+
   
   ul {
     /* this removes the dots on the list items*/
     list-style-type: none;
+    display: inline-flex;
+    gap:8px;
+    margin:0;
+    padding:0;
+
   }
   
   a {
@@ -23,4 +33,15 @@
     padding: 8px;
     /* this removes the line under the links */
     text-decoration: none;
+    align-content: center;
   }
+
+.left-links{
+    margin-right:auto;
+}
+.right-links{
+    margin-left:auto;
+}
+
+
+
